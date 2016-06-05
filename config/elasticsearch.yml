@@ -14,7 +14,7 @@
 #
 # Use a descriptive name for your cluster:
 #
-# cluster.name: my-application
+cluster.name: liveflight-cluster
 #
 # ------------------------------------ Node ------------------------------------
 #
@@ -92,3 +92,5 @@
 # Require explicit names when deleting indices:
 #
 # action.destructive_requires_name: true
+index.number_of_shards: 1
+index.number_of_replicas: 0
